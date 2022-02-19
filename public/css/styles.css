@@ -22,17 +22,20 @@ body {
 
 h1 {
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: #777;
+    color: #181c29;
 }
 
 input {
     border: 1px solid #eeeeee;
+    border-radius: 1rem;
     padding: 12px;
     outline: none;
 }
@@ -40,20 +43,21 @@ input {
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #181c29;
     border: none;
+    border-radius: 1rem;
     color: white;
     font-size: 16px;
     transition: background .3s ease;
 }
 
 button:hover {
-    background: #6b47b8;
+    background: #414553;
 }
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94;
+    background: #9198ac;
 }
 
 /* Join Page Styles */
@@ -165,19 +169,20 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #2c2f3a;
+    background: #181c29;
     padding: 24px;   
 }
 
 .list-title {
     font-weight: 500;
     font-size: 18px;
+    background: #2c2f3a;
     margin-bottom: 4px;
-    padding: 12px 24px 0 24px;
+    padding: 12px 24px 12px 24px;
 }
 
 .users {
     list-style-type: none;
     font-weight: 300;
-    padding: 12px 24px 0 24px;
+    padding: 10px 10px 0 24px;
 }
